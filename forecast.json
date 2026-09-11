@@ -64,28 +64,28 @@
       },
       "USDJPY": {
         "ticker": "USDJPY=X",
-        "valid_points": 1043,
+        "valid_points": 1041,
         "latest_at_utc": "2026-09-11T20:00:00+00:00",
         "latest_price": 153.5540008544922,
         "age_hours_at_common_end": 1.0
       },
       "EURUSD": {
         "ticker": "EURUSD=X",
-        "valid_points": 1049,
+        "valid_points": 1047,
         "latest_at_utc": "2026-09-11T21:00:00+00:00",
         "latest_price": 1.1602274179458618,
         "age_hours_at_common_end": 0.0
       },
       "GOLD": {
         "ticker": "GC=F",
-        "valid_points": 985,
+        "valid_points": 984,
         "latest_at_utc": "2026-09-11T20:00:00+00:00",
         "latest_price": 4390.0,
         "age_hours_at_common_end": 1.0
       },
       "OIL_WTI": {
         "ticker": "CL=F",
-        "valid_points": 984,
+        "valid_points": 983,
         "latest_at_utc": "2026-09-11T20:00:00+00:00",
         "latest_price": 99.98999786376953,
         "age_hours_at_common_end": 1.0
@@ -95,9 +95,9 @@
       "status": "warning",
       "history_gap_status": "warning",
       "inference_precheck_status": "pass",
-      "checked_at_utc": "2026-09-11T21:17:20.629696+00:00",
+      "checked_at_utc": "2026-09-11T23:32:02.105018+00:00",
       "publication_action": "publish_new",
-      "unresolved_slots": 110,
+      "unresolved_slots": 114,
       "warning_assets": [
         "GOLD",
         "OIL_WTI"
@@ -20965,19 +20965,19 @@
     }
   ],
   "runtime": {
-    "built_at_jst": "2026-09-12T06:17:41.659310+09:00",
-    "last_updated_at_jst": "2026-09-12T06:17:41.659310+09:00",
-    "data_fetched_at_jst": "2026-09-12T06:17:41.659310+09:00",
-    "forecast_updated_at_jst": "2026-09-12T06:17:41.659310+09:00",
-    "html_rendered_at_jst": "2026-09-12T06:17:41.659310+09:00",
+    "built_at_jst": "2026-09-12T08:32:28.134264+09:00",
+    "last_updated_at_jst": "2026-09-12T08:32:28.134264+09:00",
+    "data_fetched_at_jst": "2026-09-12T08:32:28.134264+09:00",
+    "forecast_updated_at_jst": "2026-09-12T08:32:28.134264+09:00",
+    "html_rendered_at_jst": "2026-09-12T08:32:28.134264+09:00",
     "python": "3.12.14",
     "numpy": "2.5.3",
     "torch": "2.10.0+cpu",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
     "model_inferences": 1056,
-    "fetch_seconds": 1.6302077800000063,
-    "inference_seconds": 2.9111019890000023,
-    "total_seconds": 23.560578414999995,
-    "peak_ram_mib": 258.074
+    "fetch_seconds": 1.0317740909999884,
+    "inference_seconds": 7.837767278000001,
+    "total_seconds": 28.637878630000003,
+    "peak_ram_mib": 257.379
   }
 }
