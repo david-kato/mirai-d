@@ -15,77 +15,77 @@
     "freshness": {
       "NIKKEI225": {
         "ticker": "^N225",
-        "valid_points": 280,
+        "valid_points": 275,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 66364.203125,
         "age_hours_at_common_end": 15.0
       },
       "TOPIX": {
         "ticker": "1306.T",
-        "valid_points": 280,
+        "valid_points": 275,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 430.29998779296875,
         "age_hours_at_common_end": 15.0
       },
       "DOW": {
         "ticker": "1546.T",
-        "valid_points": 273,
+        "valid_points": 268,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 79000.0,
         "age_hours_at_common_end": 15.0
       },
       "NASDAQ": {
         "ticker": "1545.T",
-        "valid_points": 280,
+        "valid_points": 275,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 243.89999389648438,
         "age_hours_at_common_end": 15.0
       },
       "SP500": {
         "ticker": "1557.T",
-        "valid_points": 280,
+        "valid_points": 275,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 121600.0,
         "age_hours_at_common_end": 15.0
       },
       "JP10Y": {
         "ticker": "236A.T",
-        "valid_points": 255,
+        "valid_points": 252,
         "latest_at_utc": "2026-09-25T06:00:00+00:00",
         "latest_price": 433.29998779296875,
         "age_hours_at_common_end": 15.0
       },
       "US10Y": {
         "ticker": "2647.T",
-        "valid_points": 172,
+        "valid_points": 168,
         "latest_at_utc": "2026-09-25T05:00:00+00:00",
         "latest_price": 5622.0,
         "age_hours_at_common_end": 16.0
       },
       "USDJPY": {
         "ticker": "USDJPY=X",
-        "valid_points": 1042,
+        "valid_points": 1037,
         "latest_at_utc": "2026-09-25T21:00:00+00:00",
         "latest_price": 157.18499755859375,
         "age_hours_at_common_end": 0.0
       },
       "EURUSD": {
         "ticker": "EURUSD=X",
-        "valid_points": 1046,
+        "valid_points": 1041,
         "latest_at_utc": "2026-09-25T21:00:00+00:00",
         "latest_price": 1.139211654663086,
         "age_hours_at_common_end": 0.0
       },
       "GOLD": {
         "ticker": "GC=F",
-        "valid_points": 984,
+        "valid_points": 979,
         "latest_at_utc": "2026-09-25T20:00:00+00:00",
         "latest_price": 4320.5,
         "age_hours_at_common_end": 1.0
       },
       "OIL_WTI": {
         "ticker": "CL=F",
-        "valid_points": 982,
+        "valid_points": 977,
         "latest_at_utc": "2026-09-25T20:00:00+00:00",
         "latest_price": 92.44000244140625,
         "age_hours_at_common_end": 1.0
@@ -95,7 +95,7 @@
       "status": "warning",
       "history_gap_status": "warning",
       "inference_precheck_status": "pass",
-      "checked_at_utc": "2026-09-26T00:09:25.077709+00:00",
+      "checked_at_utc": "2026-09-26T05:23:27.849376+00:00",
       "publication_action": "publish_new",
       "unresolved_slots": 157,
       "warning_assets": [
@@ -20966,19 +20966,19 @@
     }
   ],
   "runtime": {
-    "built_at_jst": "2026-09-26T09:09:50.451384+09:00",
-    "last_updated_at_jst": "2026-09-26T09:09:50.451384+09:00",
-    "data_fetched_at_jst": "2026-09-26T09:09:50.451384+09:00",
-    "forecast_updated_at_jst": "2026-09-26T09:09:50.451384+09:00",
-    "html_rendered_at_jst": "2026-09-26T09:09:50.451384+09:00",
+    "built_at_jst": "2026-09-26T14:23:50.706205+09:00",
+    "last_updated_at_jst": "2026-09-26T14:23:50.706205+09:00",
+    "data_fetched_at_jst": "2026-09-26T14:23:50.706205+09:00",
+    "forecast_updated_at_jst": "2026-09-26T14:23:50.706205+09:00",
+    "html_rendered_at_jst": "2026-09-26T14:23:50.706205+09:00",
     "python": "3.12.14",
     "numpy": "2.5.3",
     "torch": "2.10.0+cpu",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
     "model_inferences": 1056,
-    "fetch_seconds": 0.844487897999997,
-    "inference_seconds": 7.506280966000006,
-    "total_seconds": 27.810097032,
-    "peak_ram_mib": 257.656
+    "fetch_seconds": 1.7558190949999926,
+    "inference_seconds": 4.450122101999995,
+    "total_seconds": 25.939331857999974,
+    "peak_ram_mib": 258.203
   }
 }
