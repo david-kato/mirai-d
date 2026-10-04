@@ -64,28 +64,28 @@
       },
       "USDJPY": {
         "ticker": "USDJPY=X",
-        "valid_points": 1010,
+        "valid_points": 997,
         "latest_at_utc": "2026-10-02T21:00:00+00:00",
         "latest_price": 157.8300018310547,
         "age_hours_at_common_end": 0.0
       },
       "EURUSD": {
         "ticker": "EURUSD=X",
-        "valid_points": 1014,
+        "valid_points": 1001,
         "latest_at_utc": "2026-10-02T21:00:00+00:00",
         "latest_price": 1.1257457733154297,
         "age_hours_at_common_end": 0.0
       },
       "GOLD": {
         "ticker": "GC=F",
-        "valid_points": 953,
+        "valid_points": 940,
         "latest_at_utc": "2026-10-02T20:00:00+00:00",
         "latest_price": 4162.2998046875,
         "age_hours_at_common_end": 1.0
       },
       "OIL_WTI": {
         "ticker": "CL=F",
-        "valid_points": 952,
+        "valid_points": 938,
         "latest_at_utc": "2026-10-02T21:00:00+00:00",
         "latest_price": 91.11000061035156,
         "age_hours_at_common_end": 0.0
@@ -95,7 +95,7 @@
       "status": "warning",
       "history_gap_status": "warning",
       "inference_precheck_status": "pass",
-      "checked_at_utc": "2026-10-04T08:39:13.756882+00:00",
+      "checked_at_utc": "2026-10-04T21:54:30.450292+00:00",
       "publication_action": "publish_new",
       "unresolved_slots": 182,
       "warning_assets": [
@@ -20966,25 +20966,25 @@
     }
   ],
   "runtime": {
-    "built_at_jst": "2026-10-04T17:39:39.278828+09:00",
-    "last_updated_at_jst": "2026-10-04T17:39:39.278828+09:00",
-    "data_fetched_at_jst": "2026-10-04T17:39:39.278828+09:00",
-    "forecast_updated_at_jst": "2026-10-04T17:39:39.278828+09:00",
-    "html_rendered_at_jst": "2026-10-04T17:39:39.278828+09:00",
+    "built_at_jst": "2026-10-05T06:54:55.808984+09:00",
+    "last_updated_at_jst": "2026-10-05T06:54:55.808984+09:00",
+    "data_fetched_at_jst": "2026-10-05T06:54:55.808984+09:00",
+    "forecast_updated_at_jst": "2026-10-05T06:54:55.808984+09:00",
+    "html_rendered_at_jst": "2026-10-05T06:54:55.808984+09:00",
     "python": "3.12.14",
     "numpy": "2.5.3",
     "torch": "2.10.0+cpu",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
     "model_inferences": 1056,
-    "fetch_seconds": 0.8184722980000032,
-    "inference_seconds": 7.621810464999996,
-    "total_seconds": 27.963165492,
-    "peak_ram_mib": 257.062
+    "fetch_seconds": 0.8247841440000059,
+    "inference_seconds": 7.467565193000013,
+    "total_seconds": 27.784946913,
+    "peak_ram_mib": 257.16
   },
   "public_scores": {
     "status": "collecting",
     "model_run": "run_direct_20260309_180223",
-    "checked_at_utc": "2026-10-04T08:39:39+00:00",
+    "checked_at_utc": "2026-10-04T21:54:55+00:00",
     "horizons_hours": [
       1,
       6,
@@ -20997,7 +20997,7 @@
     "mean_error_percent": null,
     "skill_vs_zero": null,
     "missing_actual_exclusions": 0,
-    "late_publication_exclusions": 3,
+    "late_publication_exclusions": 12,
     "method": "Confirmed public-repository publications; displayed percentage forecast; exact observed calendar-hour targets; pooled points; flat <0.01% excluded from direction; no imputation; settled observations frozen"
   }
 }
