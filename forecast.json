@@ -29,7 +29,7 @@
       },
       "DOW": {
         "ticker": "1546.T",
-        "valid_points": 275,
+        "valid_points": 274,
         "latest_at_utc": "2026-10-16T06:00:00+00:00",
         "latest_price": 80250.0,
         "age_hours_at_common_end": 15.0
@@ -50,42 +50,42 @@
       },
       "JP10Y": {
         "ticker": "236A.T",
-        "valid_points": 249,
+        "valid_points": 248,
         "latest_at_utc": "2026-10-16T06:00:00+00:00",
         "latest_price": 436.3999938964844,
         "age_hours_at_common_end": 15.0
       },
       "US10Y": {
         "ticker": "2647.T",
-        "valid_points": 170,
+        "valid_points": 169,
         "latest_at_utc": "2026-10-16T05:00:00+00:00",
         "latest_price": 5651.0,
         "age_hours_at_common_end": 16.0
       },
       "USDJPY": {
         "ticker": "USDJPY=X",
-        "valid_points": 1044,
+        "valid_points": 1041,
         "latest_at_utc": "2026-10-16T20:00:00+00:00",
         "latest_price": 157.98699951171875,
         "age_hours_at_common_end": 1.0
       },
       "EURUSD": {
         "ticker": "EURUSD=X",
-        "valid_points": 1049,
+        "valid_points": 1046,
         "latest_at_utc": "2026-10-16T21:00:00+00:00",
         "latest_price": 1.1243535280227661,
         "age_hours_at_common_end": 0.0
       },
       "GOLD": {
         "ticker": "GC=F",
-        "valid_points": 987,
+        "valid_points": 985,
         "latest_at_utc": "2026-10-16T20:00:00+00:00",
         "latest_price": 4186.7001953125,
         "age_hours_at_common_end": 1.0
       },
       "OIL_WTI": {
         "ticker": "CL=F",
-        "valid_points": 984,
+        "valid_points": 982,
         "latest_at_utc": "2026-10-16T20:00:00+00:00",
         "latest_price": 99.04000091552734,
         "age_hours_at_common_end": 1.0
@@ -95,9 +95,9 @@
       "status": "warning",
       "history_gap_status": "warning",
       "inference_precheck_status": "pass",
-      "checked_at_utc": "2026-10-16T21:41:29.988801+00:00",
+      "checked_at_utc": "2026-10-17T00:46:24.092120+00:00",
       "publication_action": "publish_new",
-      "unresolved_slots": 238,
+      "unresolved_slots": 242,
       "warning_assets": [
         "US10Y",
         "GOLD",
@@ -20966,44 +20966,44 @@
     }
   ],
   "runtime": {
-    "built_at_jst": "2026-10-17T06:41:55.938262+09:00",
-    "last_updated_at_jst": "2026-10-17T06:41:55.938262+09:00",
-    "data_fetched_at_jst": "2026-10-17T06:41:55.938262+09:00",
-    "forecast_updated_at_jst": "2026-10-17T06:41:55.938262+09:00",
-    "html_rendered_at_jst": "2026-10-17T06:41:55.938262+09:00",
+    "built_at_jst": "2026-10-17T09:46:45.196675+09:00",
+    "last_updated_at_jst": "2026-10-17T09:46:45.196675+09:00",
+    "data_fetched_at_jst": "2026-10-17T09:46:45.196675+09:00",
+    "forecast_updated_at_jst": "2026-10-17T09:46:45.196675+09:00",
+    "html_rendered_at_jst": "2026-10-17T09:46:45.196675+09:00",
     "python": "3.12.15",
     "numpy": "2.5.4",
     "torch": "2.10.0+cpu",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
     "model_inferences": 1056,
-    "fetch_seconds": 1.0637431729999918,
-    "inference_seconds": 7.552775185000002,
-    "total_seconds": 28.600907883000005,
-    "peak_ram_mib": 259.91
+    "fetch_seconds": 1.5605132459999993,
+    "inference_seconds": 3.0405045810000075,
+    "total_seconds": 24.533164135000007,
+    "peak_ram_mib": 259.773
   },
   "public_scores": {
     "status": "available",
     "model_run": "run_direct_20260309_180223",
-    "checked_at_utc": "2026-10-16T21:41:55+00:00",
+    "checked_at_utc": "2026-10-17T00:46:45+00:00",
     "horizons_hours": [
       1,
       6,
       24,
       96
     ],
-    "count": 583,
-    "direction_count": 570,
-    "direction_accuracy_percent": 53.333333333333336,
-    "mean_error_percent": 0.9915806797374958,
-    "skill_vs_zero": -1.3628809891402187,
+    "count": 587,
+    "direction_count": 574,
+    "direction_accuracy_percent": 53.31010452961672,
+    "mean_error_percent": 0.9957066520660796,
+    "skill_vs_zero": -1.3563590289215206,
     "missing_actual_exclusions": 0,
     "late_publication_exclusions": 17,
     "method": "Confirmed public-repository publications; displayed percentage forecast; exact observed calendar-hour targets; pooled points; flat <0.01% excluded from direction; no imputation; settled observations frozen",
     "pending_count": 248,
-    "waiting_for_target_count": 123,
-    "waiting_for_observed_price_count": 125,
+    "waiting_for_target_count": 122,
+    "waiting_for_observed_price_count": 126,
     "first_origin_utc": "2026-10-02T21:00:00+00:00",
-    "last_target_utc": "2026-10-16T18:00:00+00:00",
+    "last_target_utc": "2026-10-16T20:00:00+00:00",
     "by_asset_horizon": {
       "NIKKEI225:1": {
         "count": 9,
@@ -21118,31 +21118,31 @@
         "direction_hits": 4
       },
       "USDJPY:24": {
-        "count": 34,
-        "error_sum": 9.865448634619051,
-        "zero_error_sum": 5.267526914023191,
-        "direction_count": 34,
-        "direction_hits": 16
+        "count": 35,
+        "error_sum": 10.489501557983758,
+        "zero_error_sum": 5.321931231154409,
+        "direction_count": 35,
+        "direction_hits": 17
       },
       "EURUSD:24": {
-        "count": 35,
-        "error_sum": 15.203392089771265,
-        "zero_error_sum": 10.211652210691966,
-        "direction_count": 35,
-        "direction_hits": 23
+        "count": 36,
+        "error_sum": 15.583348998667208,
+        "zero_error_sum": 10.42525179133503,
+        "direction_count": 36,
+        "direction_hits": 24
       },
       "GOLD:24": {
-        "count": 26,
-        "error_sum": 48.75713127669712,
-        "zero_error_sum": 20.666980743687443,
-        "direction_count": 25,
+        "count": 27,
+        "error_sum": 49.52582558567723,
+        "zero_error_sum": 20.781493559803394,
+        "direction_count": 26,
         "direction_hits": 11
       },
       "OIL_WTI:24": {
-        "count": 26,
-        "error_sum": 127.78222213687062,
-        "zero_error_sum": 35.76249471048162,
-        "direction_count": 26,
+        "count": 27,
+        "error_sum": 132.39778647145857,
+        "zero_error_sum": 38.76821425679965,
+        "direction_count": 27,
         "direction_hits": 7
       },
       "NASDAQ:24": {
