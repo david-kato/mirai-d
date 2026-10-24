@@ -15,77 +15,77 @@
     "freshness": {
       "NIKKEI225": {
         "ticker": "^N225",
-        "valid_points": 279,
+        "valid_points": 276,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 62693.16015625,
         "age_hours_at_common_end": 15.0
       },
       "TOPIX": {
         "ticker": "1306.T",
-        "valid_points": 279,
+        "valid_points": 276,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 416.29998779296875,
         "age_hours_at_common_end": 15.0
       },
       "DOW": {
         "ticker": "1546.T",
-        "valid_points": 276,
+        "valid_points": 272,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 80510.0,
         "age_hours_at_common_end": 15.0
       },
       "NASDAQ": {
         "ticker": "1545.T",
-        "valid_points": 279,
+        "valid_points": 276,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 230.1999969482422,
         "age_hours_at_common_end": 15.0
       },
       "SP500": {
         "ticker": "1557.T",
-        "valid_points": 279,
+        "valid_points": 276,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 120000.0,
         "age_hours_at_common_end": 15.0
       },
       "JP10Y": {
         "ticker": "236A.T",
-        "valid_points": 245,
+        "valid_points": 242,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 441.20001220703125,
         "age_hours_at_common_end": 15.0
       },
       "US10Y": {
         "ticker": "2647.T",
-        "valid_points": 173,
+        "valid_points": 171,
         "latest_at_utc": "2026-10-23T06:00:00+00:00",
         "latest_price": 5669.0,
         "age_hours_at_common_end": 15.0
       },
       "USDJPY": {
         "ticker": "USDJPY=X",
-        "valid_points": 1039,
+        "valid_points": 1036,
         "latest_at_utc": "2026-10-23T20:00:00+00:00",
         "latest_price": 156.81399536132812,
         "age_hours_at_common_end": 1.0
       },
       "EURUSD": {
         "ticker": "EURUSD=X",
-        "valid_points": 1045,
+        "valid_points": 1042,
         "latest_at_utc": "2026-10-23T21:00:00+00:00",
         "latest_price": 1.1204482316970825,
         "age_hours_at_common_end": 0.0
       },
       "GOLD": {
         "ticker": "GC=F",
-        "valid_points": 984,
+        "valid_points": 981,
         "latest_at_utc": "2026-10-23T20:00:00+00:00",
         "latest_price": 4010.0,
         "age_hours_at_common_end": 1.0
       },
       "OIL_WTI": {
         "ticker": "CL=F",
-        "valid_points": 981,
+        "valid_points": 978,
         "latest_at_utc": "2026-10-23T20:00:00+00:00",
         "latest_price": 103.44000244140625,
         "age_hours_at_common_end": 1.0
@@ -95,7 +95,7 @@
       "status": "warning",
       "history_gap_status": "warning",
       "inference_precheck_status": "pass",
-      "checked_at_utc": "2026-10-24T01:07:49.918274+00:00",
+      "checked_at_utc": "2026-10-24T04:58:27.639400+00:00",
       "publication_action": "publish_new",
       "unresolved_slots": 272,
       "warning_assets": [
@@ -20966,25 +20966,25 @@
     }
   ],
   "runtime": {
-    "built_at_jst": "2026-10-24T10:08:13.087844+09:00",
-    "last_updated_at_jst": "2026-10-24T10:08:13.087844+09:00",
-    "data_fetched_at_jst": "2026-10-24T10:08:13.087844+09:00",
-    "forecast_updated_at_jst": "2026-10-24T10:08:13.087844+09:00",
-    "html_rendered_at_jst": "2026-10-24T10:08:13.087844+09:00",
+    "built_at_jst": "2026-10-24T13:58:48.924044+09:00",
+    "last_updated_at_jst": "2026-10-24T13:58:48.924044+09:00",
+    "data_fetched_at_jst": "2026-10-24T13:58:48.924044+09:00",
+    "forecast_updated_at_jst": "2026-10-24T13:58:48.924044+09:00",
+    "html_rendered_at_jst": "2026-10-24T13:58:48.924044+09:00",
     "python": "3.12.15",
     "numpy": "2.5.4",
     "torch": "2.10.0+cpu",
     "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
     "model_inferences": 1056,
-    "fetch_seconds": 1.9622846219999985,
-    "inference_seconds": 4.497099373000012,
-    "total_seconds": 26.43781967599999,
-    "peak_ram_mib": 260.082
+    "fetch_seconds": 1.958045853999991,
+    "inference_seconds": 3.0982222020000023,
+    "total_seconds": 24.258483862000006,
+    "peak_ram_mib": 259.109
   },
   "public_scores": {
     "status": "available",
     "model_run": "run_direct_20260309_180223",
-    "checked_at_utc": "2026-10-24T01:08:13+00:00",
+    "checked_at_utc": "2026-10-24T04:58:48+00:00",
     "horizons_hours": [
       1,
       6,
@@ -20996,12 +20996,12 @@
     "direction_accuracy_percent": 49.516648764769066,
     "mean_error_percent": 1.1308559531846933,
     "skill_vs_zero": -1.2595657381924013,
-    "missing_actual_exclusions": 55,
+    "missing_actual_exclusions": 69,
     "late_publication_exclusions": 22,
     "method": "Confirmed public-repository publications; displayed percentage forecast; exact observed calendar-hour targets; pooled points; flat <0.01% excluded from direction; no imputation; settled observations frozen",
-    "pending_count": 286,
-    "waiting_for_target_count": 111,
-    "waiting_for_observed_price_count": 175,
+    "pending_count": 272,
+    "waiting_for_target_count": 94,
+    "waiting_for_observed_price_count": 178,
     "first_origin_utc": "2026-10-02T21:00:00+00:00",
     "last_target_utc": "2026-10-23T19:00:00+00:00",
     "by_asset_horizon": {
